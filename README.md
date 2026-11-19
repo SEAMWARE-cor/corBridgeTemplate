@@ -159,15 +159,15 @@ The plugin directory is `/opt/seamware/plugins`, or `$SEAMWARE_PLUGIN_DIR`.
 
 ## Further reading
 
-- [corBridge](https://github.com/SEAMWARE/corBridge) - the contract; every entry point is documented
+- [corBridge](https://github.com/SEAMWARE-cor/corBridge) - the contract; every entry point is documented
   in `BridgeDriver.h` and `BridgeBroker.h`
 - coraine: [Bridges and Channels](https://github.com/SEAMWARE/coraine/blob/main/doc/bridge-channels.md),
   [the full reference](https://github.com/SEAMWARE/coraine/blob/main/doc/bridge-channels-details.md),
   [plugin architecture](https://github.com/SEAMWARE/coraine/blob/main/doc/plugin-architecture.md)
-- Real bridges: [corMqttBridge](https://github.com/SEAMWARE/corMqttBridge) (a library's own thread,
-  notifications), [corModbusBridge](https://github.com/SEAMWARE/corModbusBridge) (polling, a write
+- Real bridges: [corMqttBridge](https://github.com/SEAMWARE-cor/corMqttBridge) (a library's own thread,
+  notifications), [corModbusBridge](https://github.com/SEAMWARE-cor/corModbusBridge) (polling, a write
   queue), the broker's `src/plugins/bridge/loopback` (every entry point, services and actions)
-- [corTest](https://github.com/SEAMWARE/corTest) - the test runner
+- [corTest](https://github.com/SEAMWARE-cor/corTest) - the test runner
 
 ---
 
